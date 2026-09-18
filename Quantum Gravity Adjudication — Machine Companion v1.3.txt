@@ -1,0 +1,522 @@
+﻿Quantum Gravity Adjudication — Machine Companion
+Companion package
+Human physics artifact:
+  When Is Quantum Gravity Required?
+  A Finite Experimental Adjudication Framework
+Universal machine base:
+  Structural_Flow_Universal_Kernel_v1.0.lean
+Domain formal contract:
+  Quantum_Gravity_Adjudication_Formal_Contract_v1.0.lean
+PURPOSE
+This file explains how the human physics artifact, the Structural Flow Universal Kernel, and the Quantum Gravity Adjudication Formal Contract fit together; how to run the machine package; how to interpret a clean Lean result; and where the machine authority stops. 
+This companion is documentation. It does not add scientific premises, enlarge the claim, or outrank either the physics artifact or the executable Lean files. The package is deliberately split into four jobs:
+  physics artifact
+    -> states and defends the scientific problem, experimental architecture 
+          comparison class, feasibility posture, and interpretation;
+  Universal Kernel
+    -> supplies reusable machine-checkable 
+     Structural Flow theorem and contract infrastructure;
+  QG Adjudication Formal Contract
+    -> encodes the domain-specific conditional logic for the quantum-gravity adjudication and its adversarial firewalls;
+  Machine Companion
+    -> tells a human how to assemble, execute, inspect, interpret, 
+and reuse the machine package without confusing formal closure with empirical success.
+The central rule is simple:
+  PHYSICS OWNS THE PREMISES.
+  LEAN CHECKS THE CONDITIONAL INFERENCE.
+1. WHAT THE MACHINE PACKAGE DOES
+The human artifact asks when a quantum-gravity resolution becomes empirically required at a declared physical scope. Its central criterion is:
+  independently established quantum structure
+  AND quantum structure necessary / load-bearing for the tested effect
+  AND independent gravity attribution
+  AND failure of the admitted classical gravitational comparison class
+  -> quantum-gravity resolution required at the declared scope.
+The formal contract encodes this as a scoped conditional structure. It checks that the conclusion is available only when the required parent conditions and the classical-representability result have the correct dispositions.
+The contract also encodes the experimental discrimination architecture used to reach the classical-representability result. That architecture includes:
+  * finite quantum-interface / preparation-mixture consistency;
+  * gravity attribution and background control;
+  * standard local classical-process exclusion;
+  * alternate quantum-information bypass exclusion or bounding;
+  * nonlocal / correlated classical-alternative exclusion;
+  * stochastic, irreversible, decohering, or diffusive alternative exclusion;
+  * a separately declared coverage bridge tying those discriminator results to
+    the parent classical comparison class.
+The machine then checks two especially important negative results:
+  1. closing the experimental discriminator blocks does not by itself prove exhaustion of the complete classical comparison class;
+  2. even a fully closed quantum-gravity adjudication does not select a microscopic quantum-gravity ontology.
+Those negative checks are as important as the positive promotion theorem. They prevent the executable object from saying more than the human artifact claims.
+2. WHAT THE MACHINE PACKAGE DOES NOT DO
+A clean Lean run does NOT establish any of the following:
+  * that the proposed experiment has been performed;
+  * that a source or probe has experimentally satisfied the required quantum
+    criterion;
+  * that the relevant quantum structure is experimentally load-bearing;
+  * that gravity attribution has succeeded;
+  * that a background or alternate quantum channel has been excluded;
+  * that a nonlocal, nonlinear, stochastic, or hybrid alternative has been experimentally excluded;
+  * that the declared classical comparison class is physically exhaustive for all future theories;
+  * that the numerical feasibility point in the physics artifact is achieved;
+  * that the required statistical power has been achieved;
+  * that gravity is a quantum field;
+  * that gravitons exist;
+  * that spacetime is discrete or continuous at a fundamental level;
+  * that quantum geometry, strings, loops, a persistent metric, a preferred candidate theory, or a particular ultraviolet completion follows;
+  * that the Universal Kernel is empirically true merely because Lean accepts its encoded theorem statements.
+Lean checks relations among encoded propositions. Experimental truth remains an empirical responsibility unless a future package explicitly imports auditable data and machine-verifies the corresponding analysis as well.
+3. AUTHORITY AND CLAIM OWNERSHIP
+The files have different authority jobs. They should not be treated as four versions of the same document.
+3.1 Human physics artifact
+The physics artifact owns:
+  * the scientific question;
+  * the literature-supported comparison problem;
+  * the meaning of a classical gravitational representation;
+  * the proposed experimental design;
+  * the finite data architecture;
+  * the statistical and control logic described in scientific language;
+  * the feasibility analysis;
+  * the interpretation of a successful, unresolved, or classically surviving result;
+  * the scope and reopenability of the scientific conclusion.
+If the Lean comments or this companion conflict with the scientific meaning of the published physics artifact, the conflict must be repaired. The machine comments do not silently redefine the physics.
+3.2 Structural Flow Universal Kernel
+The Universal Kernel owns the reusable executable theorem and contract base. It is not quantum-gravity specific.
+For the present QG contract, the direct executable dependency is narrow. The formal contract opens the Kernel's `UniversalTranslationContract` namespace and uses its generic three-way `Disposition` vocabulary and associated state-case reasoning:
+  Disposition.discharged
+  Disposition.violated
+  Disposition.open
+The rest of the Universal Kernel remains the common public theorem base, but a QG theorem does not automatically use every theorem family merely because the files are distributed together.
+This distinction matters. Kernel presence is not equivalent to premise use.
+3.3 Quantum Gravity Adjudication Formal Contract
+The QG Formal Contract owns the encoded domain-specific conditional logic. It specifies:
+  * the scoped QGR trigger;
+  * the evidence-protocol shapes;
+  * the classical-gravity-representability contract;
+  * the bounded experimental protocol family;
+  * the six discriminator blocks;
+  * the coverage bridge;
+  * the promotion from experimental closure to parent classical exclusion;
+  * the final conditional promotion to the scoped QGR state;
+  * blocker theorems;
+  * adversarial countermodels;
+  * the no-free-ontology firewall.
+The formal contract does not own the truth of its physics propositions. It requires those propositions to be supplied explicitly.
+3.4 This Machine Companion
+This file owns no theorem and no empirical conclusion. Its job is explanation, routing, execution guidance, and auditability.
+4. THE MOST IMPORTANT STATE-LABEL CONVENTION
+The formal contract uses the same three `Disposition` labels for several kinds of questions. Their scientific interpretation is not identical in every gate. For the three positive parent gates:
+  QDA = quantum-description admission
+  QBA = load-bearing quantum structure
+  GBA = gravity attribution
+`discharged` is the positive state.
+Thus:
+  QDA discharged
+    = the relevant source/probe quantum description is independently
+      established at the declared scope;
+  QBA discharged
+    = the relevant quantum structure is experimentally necessary / load-bearing
+      for the tested effect;
+  GBA discharged
+    = the tested effect has the required independent gravity attribution.
+GCR has the opposite practical polarity because it asks whether a classical resolution remains available:
+  GCR = classical-gravity representability.
+Therefore:
+  GCR discharged
+    = at least one admitted classical gravitational representation remains faithful to the complete registered observations and relations;
+  GCR open
+    = classical representability remains unresolved;
+  GCR violated
+    = every representation in the nonempty admitted classical comparison class fails the frozen faithfulness criterion. 
+The desired QGR trigger therefore has the asymmetric form:
+  QDA = discharged
+  QBA = discharged
+  GBA = discharged
+  GCR = violated.
+This is not a contradiction. The first three gates ask whether required positive conditions have been established. GCR asks whether classical representability survives.
+5. THE SCOPED QGR TRIGGER
+The formal contract calls the final scoped state `QGRLive`.
+Conceptually:
+  QGRLive
+    = the declared quantum-gravity-resolution question is live at one exact frozen physical scope because the required quantum and gravity premises are positive and classical representability has been violated.
+The contract pins the problem instance through a `Charge` object containing:
+  beta
+  level
+  scope.
+`Charge` is an inherited machine label. It does NOT mean electric charge.
+The pin exists to prevent a proof earned at one physical scope from silently migrating to another.
+Important theorem families around the trigger include:
+  `qgr_live_iff`
+    exposes the exact four-state conjunction defining QGRLive;
+  `classical_resolution_blocks_qgr`
+    checks that a surviving faithful classical resolution blocks QGRLive;
+  `open_gcr_blocks_qgr`
+    checks that unresolved classical representability blocks QGRLive;
+  `qda_not_discharged_blocks_qgr`
+  `qba_not_discharged_blocks_qgr`
+  `gba_not_discharged_blocks_qgr`
+    check that none of the three parent positive conditions may be silently
+    skipped;
+  `one_classical_model_can_fail_while_gcr_is_discharged`
+    provides an explicit countermodel showing that failure of one classical model is not exhaustion of the classical comparison class.
+That last countermodel is the machine version of a central scientific point in the physics artifact: rejecting a particular semiclassical model is not yet a quantum-gravity adjudication.
+6. THE EXPERIMENTAL DISCRIMINATION LAYER
+The `QGRCGEX` namespace formalizes the bounded experimental architecture that supports the classical-exclusion question.
+6.1 ProtocolFamily
+`ProtocolFamily` records that the adjudication is performed under one frozen auditable experimental family. Its fields encode requirements such as:
+  * one bounded intervention family;
+  * the same physical systems and declared scope;
+  * frozen preparations and readouts;
+  * frozen geometry/time scan;
+  * coherent/dephased controls;
+  * gravity-suppressed controls;
+  * frozen procedural-mixture identities;
+  * environmental monitoring;
+  * a frozen witness / decision structure;
+  * a frozen confidence rule;
+  * one common confidence object for the linked comparisons;
+  * frozen nuisance treatment and model-parameter domains;
+  * frozen exclusion, stop, calibration-transfer, missing-data, and multiple-testing rules;
+  * a frozen rule requiring each candidate to use one allowed parameterization jointly across the complete relevant data rather than post-outcome retuning across run classes;
+  * representation-neutral gravity-side interpretation;
+  * non-circularity and auditability.
+These fields do not prove that an experiment satisfies those conditions. They ensure that a machine-certified downstream result cannot silently omit them.
+6.2 The six discriminator blocks
+The compact block labels are implementation names inherited from the research packet:
+  L  finite quantum-interface / preparation-mixture consistency
+  G  gravity attribution and background control
+  P  standard local classical-process exclusion
+  B  alternate quantum-information bypass exclusion or bounding
+  N  nonlocal / correlated classical-alternative exclusion
+  I  stochastic / irreversible / decohering / diffusive alternative exclusion
+`SixBlockExhaustion` requires the protocol family to be ready and all six block states to be `discharged`.
+That condition is intentionally not enough to establish parent GCR violation.
+6.3 Why the G block does not replace parent GBA
+The experimental G block and the parent GBA gate occupy different logical jobs. The G block belongs to the discriminator architecture used in the experimental class-exclusion path.
+Parent GBA is the independently required gravity-attribution gate of the final QGR trigger.
+The contract includes a theorem showing that experimental closure does not replace the independent parent gates. This prevents the experimental routing machinery from manufacturing one of the premises that the final conclusion already requires.
+7. THE COVERAGE BRIDGE
+The `CoverageBridge` is the formal object that prevents six successful tests from being mistaken for universal classical-gravity exhaustion.
+Its job is to connect the predeclared experimental discriminator architecture to the parent classical comparison class.
+The bridge requires explicit propositions covering, among other things:
+  * independent declaration of the coverage rule;
+  * a frozen residual partition;
+  * coverage of the standard-process branch;
+  * coverage of the quantum-bypass branch;
+  * coverage of the nonlocal / correlated branch;
+  * coverage of endpoint-interface alternatives;
+  * operational-classicality audits;
+  * irreversibility / noise alternatives;
+  * matching to the parent GCR class definition;
+  * matching to the parent faithfulness criterion;
+  * matching to the parent exclusion rule;
+  * representation-neutral classicality;
+  * no restriction of the classical class to metric GR alone;
+  * pre-outcome freezing;
+  * non-circularity;
+  * auditability.
+Lean does NOT prove that these coverage claims are physically correct. That is precisely why they appear as explicit domain-owned propositions.
+The machine checks that they cannot be omitted from the promotion step.
+This distinction is embodied by the adversarial theorem:
+  `six_blocks_alone_do_not_entail_parent_gcr_violation`
+The countermodel closes all six discriminator blocks while parent GCR remains `discharged`, meaning that a faithful classical gravitational representation still exists.
+The purpose is not to claim that such a physical world has been observed. The countermodel proves a logical non-implication: six block closures alone do not entail complete classical-class exhaustion.
+8. FROM EXPERIMENTAL CLOSURE TO QGRLIVE
+The formal promotion occurs in two distinct steps.
+STEP 1 — Experimental closure to parent GCR violation
+`ExperimentClosure` requires:
+  * SixBlockExhaustion;
+  * a ready CoverageBridge;
+  * a promotion implication frozen before the outcome.
+Given those conditions, the contract can promote the parent GCR state to `violated`.
+The relevant theorem is:
+  `experiment_closure_promotes_parent_gcr`
+STEP 2 — Parent QGR promotion
+Even after parent GCR is violated, the final QGR state still requires the three independent parent gates:
+  QDA discharged
+  QBA discharged
+  GBA discharged.
+Only then does:
+  `experiment_closure_qgr_live`
+establish the scoped `QGRLive` conclusion.
+This two-step structure is intentional. It makes the following invalid shortcut impossible:
+  successful discriminator experiment
+  -> therefore quantum gravity.
+The actual machine route is:
+  bounded experimental discriminator closure
+  + independently warranted comparison-class coverage
+  -> parent classical representability violated
+  parent classical representability violated
+  + independent quantum-description admission
+  + load-bearing quantum structure
+  + independent gravity attribution
+  -> scoped QGRLive.
+9. THE ONTOLOGY FIREWALL
+The human artifact deliberately stops before microscopic ontology. The formal contract must stop there as well.
+`CandidateOutput` lists representative conclusions that are NOT supplied for free by QGRLive. The public contract may include examples such as:
+  * graviton;
+  * unique microscopic carrier;
+  * quantum geometry;
+  * loop variables;
+  * strings;
+  * metric persistence;
+  * discrete spacetime;
+  * continuum spacetime;
+  * specific ultraviolet completion;
+  * preferred candidate theory;
+  * universal gravitational quantization;
+  * other frozen theory-specific outputs.
+The countermodel `qgrLiveNoOutputWorld` makes QGRLive true while every listed candidate output is false.
+The theorem:
+  `qgr_live_does_not_entail_candidate_output`
+therefore establishes a formal non-implication. A scoped quantum-gravity requirement does not select a microscopic theory.
+The adversarial experiment layer repeats the same firewall after full experimental closure through:
+  `closed_experiment_still_has_no_free_qg_outputs`.
+This mirrors the scientific interpretation of the paper: the experiment can establish when an adequate classical answer is no longer available without establishing what the successful quantum-gravity theory must be.
+10. HOW THE HUMAN ARTIFACT MAPS TO THE FORMAL CONTRACT
+The mapping is conceptual rather than paragraph-by-paragraph.
+HUMAN SECTION 1 — Introduction
+  Machine role:
+    overall package purpose and scoped QGR criterion.
+HUMAN SECTION 2 — The Empirical Requirement for Quantum Gravity
+  Machine role:
+    QDA, QBA, GBA, GCR and QGRLive;
+    blocker theorems;
+    one-model-failure countermodel;
+    no-free-ontology output firewall.
+HUMAN SECTION 3 — The Classical Comparison Class
+  Machine role:
+    ClassicalGravityClass;
+    faithfulness and admissibility structure;
+    GCR dispositions;
+    six discriminator branches;
+    CoverageBridge.
+HUMAN SECTION 4 — An Empirical Adjudication Protocol
+  Machine role:
+    ProtocolFamily;
+    L/G/P/B/N/I block structure;
+    one common confidence object;
+    no post-outcome retuning;
+    frozen decision and exclusion rules;
+    coverage and promotion separation.
+HUMAN SECTION 5 — Finite Data Architecture
+  Machine role:
+    represented at the contract level through frozen preparations, readouts, geometry/time scan, controls, monitors, data/uncertainty discipline, and joint-fit requirements.
+  Important limitation:
+    the Lean contract does NOT encode the 144-cell tomography calculation, the 522 + 18KJ + 18J setting count, raw counts, or numerical statistical reconstruction. Those remain physics/data-analysis content unless a future verified data pipeline formalizes them separately.
+HUMAN SECTION 6 — Feasibility and the Current Measurement Gap
+  Machine role:
+    none of the numerical feasibility claims are proved by the contract. Masses, separations, path splitting, interaction time, residual-gas rates, coherence targets, and statistical power remain external scientific inputs.
+HUMAN SECTION 7 — Interpretation
+  Machine role:
+    coverage firewall;
+    parent-gate firewall;
+    no-free-ontology countermodels;
+    open / survival / exclusion distinctions.
+HUMAN SECTION 8 — Conclusion
+  Machine role:
+    scoped QGRLive conclusion only.
+11. HOW TO RUN THE PACKAGE IN LEAN
+The release package is designed for append execution.
+Required files:
+  Structural_Flow_Universal_Kernel_v1.0.lean
+  Quantum_Gravity_Adjudication_Formal_Contract_v1.0.lean
+Procedure:
+  1. Open a fresh Lean 4 file in the browser environment.
+  2. Paste the COMPLETE Universal Kernel first, unchanged.
+  3. Confirm that the kernel reaches its own final:
+       end StructuralFlow
+  4. Immediately after that final line, paste the COMPLETE QG Formal Contract, unchanged.
+  5. Do not wrap the contract in an additional namespace. The contract opens its own `namespace StructuralFlow` and its own domain namespaces.
+  6. Run / elaborate the combined file.
+Expected clean result:
+  no messages
+  no errors
+The release package should record the Lean version used for the clean run. File hashes are also recommended when the package is published so that a later user can confirm that the exact tested inputs were used.
+The append method is authoritative for this release. A later packaged Lean module may support ordinary `import` use, but that is a separate distribution step and should not be assumed from the present files.
+12. WHAT A CLEAN RUN MEANS
+A clean run means that the encoded declarations, theorem statements, proofs, and countermodels type-check together at their declared formal scopes.
+A clean run does NOT mean that every proposition field named in an evidence or coverage protocol is true in the physical world.
+For example, a structure field of type:
+  classCoverageWarrant : Prop
+makes the coverage warrant explicit. It does not cause Lean to discover or empirically validate that warrant.
+Similarly, a clean proof of:
+  ExperimentClosure -> QGRLive
+means the conditional implication is valid under the encoded premises. It does not mean that an experiment has supplied those premises.
+The machine package is therefore an inference audit, not an empirical oracle.
+13. WHAT A FAILED RUN MEANS
+Not every Lean failure is a physics failure.
+A failed run should first be classified.
+13.1 Parse / syntax failure
+Likely causes include:
+  * incomplete copy/paste;
+  * text corruption;
+  * omitted kernel content;
+  * accidental extra characters;
+  * incompatible Lean syntax after an environment change.
+This does not reopen the scientific argument by itself.
+13.2 Unknown identifier / namespace failure
+Likely causes include:
+  * the wrong Universal Kernel version;
+  * the QG contract pasted before the kernel;
+  * a missing or altered namespace;
+  * an API change in a later kernel.
+This is primarily a dependency/interface problem.
+13.3 Proof failure after a contract edit
+This is more important. It may indicate that:
+  * a theorem statement changed;
+  * a premise was removed;
+  * a dependency was altered;
+  * a countermodel no longer supports the intended non-implication;
+  * the new formalization does not preserve the previous conditional result.
+The correct response is to locate the changed requirement. Do not patch the Universal Kernel merely to make the local theorem pass.
+13.4 Proof failure after a human scientific change
+If the physics artifact changes materially, the formal contract may correctly fail to represent it. The domain contract should be revised first at the lowest sufficient level.
+The Universal Kernel should reopen only if the new pressure demonstrates a problem in genuinely universal machinery rather than a new QG-specific requirement.
+14. WHEN TO EDIT WHICH FILE
+Edit the HUMAN PHYSICS ARTIFACT when:
+  * the scientific interpretation changes;
+  * the comparison class changes;
+  * the experiment or data architecture changes;
+  * the feasibility analysis changes;
+  * literature changes alter the scientific claim;
+  * a new physical alternative must be admitted or rerouted.
+Edit the QG FORMAL CONTRACT when:
+  * the conditional structure of the QG adjudication changes;
+  * a required domain premise is missing from the machine object;
+  * a new discriminator branch becomes logically necessary;
+  * the coverage bridge changes;
+  * the machine no longer represents the human claim faithfully;
+  * a new overclaim needs an explicit formal firewall.
+Edit this MACHINE COMPANION when:
+  * file names change;
+  * execution instructions change;
+  * the public terminology map changes;
+  * the human-to-machine mapping changes;
+  * the formal contract gains or loses a publicly relevant theorem family;
+  * a common reader confusion needs to be resolved.
+Edit the UNIVERSAL KERNEL only when:
+  * a demonstrated problem reaches reusable universal machinery;
+  * the domain contract cannot lawfully express a required distinction without changing a genuinely universal interface;
+  * a universal theorem, contract, or countermodel is shown to be defective or insufficient at its own declared scope.
+Do NOT edit the Universal Kernel merely because:
+  * an empirical QG premise remains open;
+  * one classical theory survives;
+  * an experiment is technologically infeasible;
+  * the QG contract needs a new domain-specific field;
+  * a local proof is inconvenient;
+  * a desired conclusion does not follow.
+The default repair location is the lowest sufficient authority layer.
+15. HOW ACTUAL EXPERIMENTAL RESULTS WOULD ENTER THE MACHINE PATH
+The present formal contract is a conditional contract, not a raw-data analysis pipeline.
+A future empirical instantiation should therefore proceed in two stages.
+STAGE A — Physics and statistics
+The experimental team performs the registered analysis described by the human artifact and produces auditable domain results for the relevant gates and blocks. Examples include:
+  * quantum description established at the declared scope;
+  * coherent/dephased discrimination satisfies the frozen QBA criterion;
+  * gravity attribution satisfies its registered rule;
+  * mixture consistency supports the finite quantum interface;
+  * the standard local classical-process region is excluded;
+  * each admitted bypass / nonlocal / stochastic alternative satisfies its predeclared exclusion criterion;
+  * the common confidence object and nuisance treatment remain valid;
+  * the comparison-class coverage warrant remains defensible.
+STAGE B — Formal instantiation
+Those results are then represented as explicit propositions and evidence objects in a concrete Lean instantiation of the generic QG contract.
+A serious empirical instantiation should preserve traceability. Each supplied premise should point to the exact analysis object, dataset, registered rule, or external verification that supports it.
+The machine should never be made to "close" an empirical gate by replacing an unresolved proposition with `True` merely to obtain a proof.
+If the physical evidence is unresolved, the corresponding machine state should remain open.
+If a classical representation survives, GCR should remain discharged rather than being forced to violated.
+If an interface assumption fails, the process inference should be rerouted as the physics artifact requires.
+The formal system is most valuable when it preserves an honest unresolved state rather than manufacturing closure.
+16. MINIMUM THIRD-PARTY VERIFICATION PATH
+A reader who does not wish to inspect the entire codebase can still perform a minimal machine audit.
+Minimum path:
+  1. Read Sections 1, 2, and 7 of the physics artifact.
+  2. Read Sections 4 through 9 of this companion.
+  3. Run the Universal Kernel + QG Formal Contract append package in Lean.
+  4. Inspect the definitions / theorems:
+       QGRLive
+       qgr_live_iff
+       one_classical_model_can_fail_while_gcr_is_discharged
+       SixBlockExhaustion
+       CoverageBridge
+       ExperimentClosure
+       experiment_closure_promotes_parent_gcr
+       experiment_closure_qgr_live
+       six_blocks_alone_do_not_entail_parent_gcr_violation
+       qgr_live_does_not_entail_candidate_output
+       closed_experiment_still_has_no_free_qg_outputs
+  5. Confirm that the clean machine result is being interpreted conditionally, not as evidence that the proposed experiment has already succeeded.
+That is enough to audit the logical spine of the publication claim.
+17. FULL AUDIT PATH
+A deeper reviewer can audit the package in four directions.
+17.1 Physics -> machine
+Question:
+  Does every load-bearing scientific premise in the final QGR inference have an explicit machine seat, or is anything being supplied silently?
+17.2 Machine -> physics
+Question:
+  Does any machine theorem claim more than the physics artifact permits?
+Special attention belongs on:
+  * comparison-class coverage;
+  * gravity attribution;
+  * process-interface validity;
+  * GCR polarity;
+  * ontology outputs.
+17.3 Countermodel audit
+Question:
+  Do the explicit countermodels actually preserve the intended firewalls?
+Required checks include:
+  * one classical model can fail while another faithful classical gravitational representation survives;
+  * all six discriminator blocks can close without parent GCR violation if the coverage bridge is absent;
+  * QGRLive can hold while every frozen microscopic candidate output is false.
+17.4 Version / execution audit
+Question:
+  Were the exact published files run under the declared Lean version without local edits?
+Recommended release record:
+  * exact Universal Kernel filename;
+  * exact QG Formal Contract filename;
+  * exact Machine Companion filename;
+  * Lean version;
+  * SHA-256 for both Lean files;
+  * clean-run statement.
+18. REOPENING RULES
+The machine package is intentionally reopenable.
+The QG scientific conclusion reopens if, for example:
+  * a new faithful classical gravitational representation reproduces the same complete registered data under the declared standards;
+  * gravity attribution is defeated;
+  * an alternate quantum-information route survives the required bound;
+  * the finite quantum interface fails on the tested domain;
+  * a nonlocal, nonlinear, stochastic, or other admitted alternative survives;
+  * the comparison-class coverage warrant is no longer defensible;
+  * the experimental confidence construction or nuisance treatment is shown to be invalid for the claimed exclusion.
+A scientific reopening does not automatically reopen the Universal Kernel.
+Usually it changes a domain disposition or the QG formal contract instance.
+The Universal Kernel reopens only when the demonstrated pressure reaches the universal machine structure itself.
+19. PACKAGE READING RULE
+The four files should be read together but not collapsed into one authority.
+The safest reading order for a new user is:
+  1. Human physics artifact
+  2. This Machine Companion
+  3. QG Formal Contract
+  4. Universal Kernel, beginning with its release header and then the specific
+     UniversalTranslationContract module used directly by the QG contract
+A user interested only in execution may instead use:
+  1. This Machine Companion, Sections 4, 7, 8, 9, 11, and 12
+  2. Universal Kernel
+  3. QG Formal Contract
+A user interested only in the physics should not treat the machine package as a substitute for the scientific argument or cited literature.
+20. FINAL INTERPRETIVE COMPRESSION
+The package can be compressed to five statements.
+1. The physics artifact defines what must be established experimentally before
+   a scoped quantum-gravity resolution is justified.
+2. The Universal Kernel provides the reusable machine vocabulary and contract
+   infrastructure used by the domain formalization.
+3. The QG Formal Contract makes the required domain premises, experimental
+   discriminator structure, coverage dependency, promotion logic, and
+   non-implication firewalls explicit in Lean.
+4. A clean Lean run validates the encoded conditional logic, not the empirical
+   truth of the premises.
+5. Even complete machine closure of the scoped QGR condition does not select a
+   microscopic theory of quantum gravity.
+The intended scientific use is therefore not:
+  machine says quantum gravity is true.
+It is:
+  physics supplies an auditable empirical adjudication;
+the formal contract prevents the resulting inference from silently dropping premises, collapsing unresolved alternatives, or claiming more than the data and declared comparison class support.
